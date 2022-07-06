@@ -101,7 +101,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس", f"ؤمن", f"ورس", f"السورس", f"مطور", f"المطور"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/8efbe93b81985bb648d95.jpg",
+        photo=f"https://telegra.ph/file/26e752a9ba9a526724d1e.jpg",
         caption=f"""Programmer [ســيدثون - ѕᴇᴅᴛʜᴏɴ](https://t.me/Sedthon) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
         reply_markup=InlineKeyboardMarkup(
          [
