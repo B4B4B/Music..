@@ -84,7 +84,7 @@ async def start_(client: Client, message: Message):
                         "‹ كروب الدعم › ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "‹ قناة السورس ›", url=f"https://t.me/Sedthon"
+                        "‹ قناة السورس ›", url=f"https://t.me/Wesha_1"
                     ),
                 ],
                 [
@@ -101,16 +101,16 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس", f"ؤمن", f"ورس", f"السورس", f"مطور", f"المطور"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/26e752a9ba9a526724d1e.jpg",
-        caption=f"""Programmer [ســيدثون - ѕᴇᴅᴛʜᴏɴ](https://t.me/Sedthon) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
+        photo=f"https://telegra.ph/file/d49ffebaabd36c64c4b54.jpg",
+        caption=f"""Programmer [سواليف 𝑴𝑬𝑵𝑵𝑨𓆩 ˹ME˼ 𓆪](https://t.me/Wesha_1) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("ســيدثون - ѕᴇᴅᴛʜᴏɴ", url=f"https://t.me/Sedthon"),
+                InlineKeyboardButton("سواليف 𝑴𝑬𝑵𝑵𝑨𓆩 ˹ME˼ 𓆪", url=f"https://t.me/Wesha_1"),
             ],
             [
                 InlineKeyboardButton(
-                    "-تگسن .", url=f"https://t.me/S_Y_W"
+                    "-وحـــــيــد 𓆩 ˹M♚E˼  .", url=f"https://t.me/We_sha"
                 ),
             ],
             [
@@ -128,7 +128,7 @@ async def help(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("تگسن", url=f"https://t.me/S_Y_W"),
+                InlineKeyboardButton("وحـــــيــد 𓆩 ˹M♚E˼ 𓆪", url=f"https://t.me/We_sha"),
             ],
             [
                 InlineKeyboardButton(
